@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+PickApp
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+PickApp is a sports and activity coordination platform designed to help users organize, find, and join local pickup games or activities. Whether you're looking for a casual soccer match, a tennis game, or a yoga session, PickApp makes it easy to connect with like-minded individuals in your area.
 
-In the project directory, you can run:
+Table of Contents
+Features
 
-### `npm start`
+Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Installation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Configuration
 
-### `npm test`
+Usage
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+API Reference
 
-### `npm run build`
+Contributing
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+License
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Contact
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Features
+Create Activities: Organize sports games or events with details like title, location, date, and skill level.
 
-### `npm run eject`
+Find Activities: Browse and search for nearby activities using filters like location, sport type, and date.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Join Activities: Join activities and see the number of attendees.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+User Profiles: Create and manage your profile with details like name, bio, and skill level.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Responsive Design: Works seamlessly on both desktop and mobile devices.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Technologies Used
+Frontend:
 
-## Learn More
+React.js
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+React Bootstrap
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+React Router
 
-### Code Splitting
+Backend:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Supabase (Authentication, Database, Storage)
 
-### Analyzing the Bundle Size
+Deployment:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Vercel
 
-### Making a Progressive Web App
+Other Tools:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Google Maps API (for location-based features)
 
-### Advanced Configuration
+Installation
+To run PickApp locally, follow these steps:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Clone the Repository:
 
-### Deployment
+bash
+Copy
+git clone https://github.com/mannie-stien/pickapp.git
+cd pickups
+Install Dependencies:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+bash
+Copy
+npm install
 
-### `npm run build` fails to minify
+Acknowledgments
+Thanks to Supabase for providing the backend infrastructure.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Special thanks to all contributors and users of PickApp!
