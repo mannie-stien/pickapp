@@ -1,0 +1,35 @@
+Core MVP Features:
+1️⃣ Game Discovery & Creation
+✅ Users can browse and search for games by location, date, and skill level.
+✅ Filter and sort by city, state, and upcoming games.
+✅ Users can create a game with details like max attendees, skill level, and description.
+
+2️⃣ Joining & Managing Attendance
+✅ Users can join games and track their status (pending/confirmed/cancelled).
+✅ Host can approve or deny attendees if necessary.
+✅ Limit attendance based on max_attendees.
+
+3️⃣ User Profiles & Settings
+✅ Users can set preferences (e.g., notifications, preferred locations, game level).
+✅ Manage time zones for accurate scheduling.
+
+4️⃣ Game Comments & Engagement
+✅ Users can comment on games for discussions.
+✅ Allow game updates from hosts (e.g., "Weather change—game moved to another location").
+
+5️⃣ Recurring Games (Automation)
+✅ Users can create weekly/monthly recurring games to save time.
+✅ Auto-create upcoming sessions based on the recurring_games table.
+
+Additional Features for Higher Engagement:
+🎖 Gamification & Social Features
+✅ Host Ratings & Reviews: Allow users to rate game hosts (e.g., "Reliable organizer, fun games").
+✅ Game Reminders: Send reminders before game time.
+✅ Friend System: Allow users to see which friends are attending.
+
+📍 Better Game Visibility
+✅ Map Integration: Show game locations on a map.
+✅ Popular Games Section: Highlight games with high engagement.
+
+📆 Calendar Integration
+✅ Sync game schedule with Google Calendar / iCal.
